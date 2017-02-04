@@ -14,4 +14,3 @@ class ezcReflectionFunction extends ReflectionFunction {
     /* ... */
 }
 ?>
-P
