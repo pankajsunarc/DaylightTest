@@ -10,10 +10,11 @@ interface MyfirstInterface
 class Template implements MyfirstInterface
 {
     private $vars = array();
-  
+    protected $attirbutes = array();
     public function setVariable($name, $var)
     {
-        $this->vars[$name] = $var;
+        $this->vars[$name] = $name;
+	$this->vars[$name] = $var;
     }
   
     public function getHtml($template)
